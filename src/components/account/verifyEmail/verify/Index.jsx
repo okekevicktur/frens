@@ -26,7 +26,7 @@ const VerifyMail = () => {
           </p>
         </div>
         <div className="w-[10rem] mb-[1.5rem]">
-          <Link to="verified">
+          <Link to="/signup/verified">
             <div className=" bg-[#FF8600] flex justify-center p-2 rounded-[0.375rem]">
               <span className="text-[#F6F8F9] text-[0.875rem]">
                 Confirm code

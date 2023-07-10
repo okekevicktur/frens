@@ -14,7 +14,7 @@ const CheckMail = () => {
           account. Check your inbox to activate your account.
         </p>
         <div className="w-[10rem] mx-auto mb-[1.5rem]">
-          <Link to="verify">
+          <Link to="/verify">
             <div className=" bg-[#FF8600] flex justify-center items-center p-2 rounded-[0.375rem]">
               <span className="text-[#F6F8F9] text-[0.875rem]">
                 Confirm Email

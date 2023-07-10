@@ -18,7 +18,7 @@ const VerifiedMail = () => {
           on the button below to continue
         </p>
         <div className="w-[10rem] mx-auto mb-[1.5rem]">
-          <Link to="">
+          <Link to="/Dashboard">
             <div className=" bg-[#FF8600] flex justify-center p-2 rounded-[0.375rem]">
               <span className="text-[#F6F8F9] text-[0.875rem]">Continue</span>
             </div>

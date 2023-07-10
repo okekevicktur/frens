@@ -52,7 +52,7 @@ const SignupForm = () => {
           </div>
         </div>
         <p className="flex justify-end text-[0.75rem] text-[#5B6871]">15/15</p>
-        <Link to="checkmail">
+        <Link to="/checkmail">
           <button
             type="submit"
             className="w-full h-[2.5rem] hover:bg-[#FF8600] cursor-pointer text-[#F6F8F9] text-[0.875rem] rounded-[0.45rem] mt-8 bg-[#ECEDED]"
