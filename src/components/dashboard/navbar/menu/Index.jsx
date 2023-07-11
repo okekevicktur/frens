@@ -10,12 +10,12 @@ import { PropTypes } from "prop-types";
 
 const MenuWrap = ({ children }) => {
   return (
-    <div className="w-[18.265] ">
+    <div className="w-full ">
       <div className="flex gap-x-1 justify-center w-[7.5rem] h-[2.25rem] mx-auto">
         <img src={logo} alt="logo" className="w-5 h-5 flex" />
         <span className="text-l font-bold">Frens</span>
       </div>
-      <div className="mt-2 flex flex-col text-[#818187] gap-y-3 h-[21.7rem] w-full text-[0.8rem]">
+      <div className="mt-2 flex mx-auto px-3 flex-col text-[#818187] gap-y-3 h-[21.7rem] w-full text-[0.8rem]">
         <div className=" flex cursor-pointer justify-left px-4 py-1 gap-x-2 items-center">
           <img src={account} alt="logo" className="w-4 h-4 flex " />
           <span className="text-[#FF8600] justify-center  ">My Portfolio</span>

@@ -8,7 +8,8 @@ import CheckMailTemplate from "./components/account/check-email/template/Index";
 import VerifyMailTemplate from "./components/account/verifyEmail/template/Index";
 import VerifiedMailTemplate from "./components/account/verifiedMail/template/Index";
 import AccountTemplate from "./components/account/template/Index";
-import NavbarTemplate from "./components/dashboard/navbar/template/Index";
+import DashboardTemplate from "./components/dashboard/template/Index";
+// import NavbarTemplate from "./components/dashboard/navbar/template/Index";
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -20,7 +21,7 @@ function App() {
         <Route path="/checkmail" element={<CheckMailTemplate />} />
         <Route path="/verify" element={<VerifyMailTemplate />} />
         <Route path="/signup/verified" element={<VerifiedMailTemplate />} />
-        <Route path="/Dashboard" element={<NavbarTemplate />} />
+        <Route path="/Dashboard" element={<DashboardTemplate />} />
       </Routes>
     </>
   );

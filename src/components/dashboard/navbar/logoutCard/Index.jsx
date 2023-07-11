@@ -10,7 +10,7 @@ const LogoutWrapper = ({ username, title }) => {
       <div className="bg-[#e8bf92] cursor-pointer rounded-[1rem] mt-4 p-1">
         <span className="text-[#FF8600]">Logout</span>
       </div>
-      <div className="absolute bottom-24 left-9 mx-auto w-[3.75rem] h-[3.75rem]">
+      <div className="absolute bottom-24 left-20 mx-auto w-[3.75rem] h-[3.75rem]">
         <img src={userImage} alt="User Profile" className="w-full" />
       </div>
     </div>
